@@ -41,5 +41,5 @@ We also have a group GitHub. This is the place to share code, examples and tutor
 ### Local computer setup
 - Setup Python and ensure the path is accessible in VSCode. Create conda environment with base packages (#TODO - make conda environment.yml with base packages)
 - Setup git account to connect to group scripts
-- work through the Setup Git tutorial available on github
+- work through the [Setup Git](https://github.com/vyas-research-group/Setup_Git) tutorial available on github
 
