@@ -17,7 +17,7 @@ For DFT:
 - Avogadro: https://www.openchemistry.org/downloads/ **AND/OR**
 - GaussView: requires a license you will obtain from Shubham
 
-### For MD:  
+For MD:  
 - ChimeraX: https://www.cgl.ucsf.edu/chimerax/download.html **AND/OR**
 - VMD: https://www.ks.uiuc.edu/Research/vmd/
 
