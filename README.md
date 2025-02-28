@@ -37,12 +37,12 @@ We also have a group GitHub. This is the place to share code, examples and tutor
 
 # (2) Next Steps
 ### HPC Setup
-- Setup WinSCP to connect to the HPC (possibly need PuttY?)
+- Setup WinSCP to connect to the HPC
 - Setup VSCode to connect to the HPC (install VSCode extention Remote-SSH and configure properly)
 - Setup git account on HPC computer and create initial file structure
 - Clone and install group scripts (slurm-scripts, gromacs-scripts) available form github
 ### Local computer setup
 - Setup Python and ensure the path is accessible in VSCode. Create conda environment with base packages (#TODO - make conda environment.yml with base packages)
 - Setup git account to connect to group scripts
-- work through the [Setup Git](https://github.com/vyas-research-group/Setup_Git) tutorial available on github
+- work through the [Setup Git](https://github.com/vyas-research-group/Setup_Git) tutorial available on github. You can slo explore git branching [here](https://learngitbranching.js.org/?locale=en_US).
 
