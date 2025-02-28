@@ -1,0 +1,13 @@
+name: vyasbase
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cclib
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - seaborn
+prefix: C:\Users\benny\miniconda3\envs\vyasbase
