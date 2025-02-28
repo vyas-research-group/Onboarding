@@ -22,7 +22,7 @@ For DFT:
 - VMD: https://www.ks.uiuc.edu/Research/vmd/
 
 ### For converting filetypes:
--Openbabel: https://openbabel.org/docs/Installation/install.html
+- Openbabel: https://openbabel.org/docs/Installation/install.html
 
 ### Notes and reference management 
 - Zotero: https://www.zotero.org/
