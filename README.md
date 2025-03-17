@@ -46,3 +46,6 @@ We also have a group GitHub. This is the place to share code, examples and tutor
 - Setup git account to connect to group scripts
 - work through the [Setup Git](https://github.com/vyas-research-group/Setup_Git) tutorial available on github. You can slo explore git branching [here](https://learngitbranching.js.org/?locale=en_US).
 
+# (3) Technical Starting Points
+See the *Vyas Research Group Business* Onedrive. You can find some useful intro papers and reviews on DFT, MD and other tools under *>Tutorials and Examples*.
+
