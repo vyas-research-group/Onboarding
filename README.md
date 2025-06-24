@@ -5,7 +5,7 @@ Instructions to get connected with group resources
 
 A Setup script exists in the setup scripts folder of this repo. In order to use it, click on the green code button and download this file.
 
-[Image of Green Button]
+![Image of Green Button](./setup_scripts/green_code_button.png)
 
 then, in the file explorer, double click on the windows_setup.bat file and it will begin to run. Follow the prompts and the following software will be installed. This Script makes sure you are installing the correct software and saves you from having to click on those links.
 
