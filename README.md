@@ -1,6 +1,26 @@
 # Onboarding
 Instructions to get connected with group resources  
 
+# (0) Quick Setup (Windows Only)
+
+A Setup script exists in the setup scripts folder of this repo. In order to use it, click on the green code button and download this file.
+
+![Image of Green Button](./setup_scripts/green_code_button.png)
+
+then, in the file explorer, double click on the windows_setup.bat file and it will begin to run. Follow the prompts and the following software will be installed. This Script makes sure you are installing the correct software and saves you from having to click on those links.
+
+- Python
+- VSCode
+- Git
+- WinSCP
+- Zotero
+
+This script also sets up the vyasbase conda environment from the environment.yml file provided. It comes with packages that are often used in the Vyas Research Group scripts installed so you may be ready for demos.
+
+> [!Caution]
+> This does not set up all of this software so it is ready to use. You will still need to manually go through and add certain plug ins and modify preferences. This just saves you time on some downloads.
+
+
 # (1) Software to Install  
 Most group members use Windows on their personal computers. We have experience setting things up for Linux as well. If you are a Mac user, we'll need to find some work arounds.
 

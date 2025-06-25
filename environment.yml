@@ -1,13 +1,33 @@
-name: vyasbase
+name: vgs
 channels:
   - conda-forge
   - defaults
+
 dependencies:
-  - cclib
+  # Core Python
+  - python=3.8
+  - pip
+
+  # Data science stack
   - ipykernel
   - matplotlib
   - numpy
   - pandas
   - scipy
   - seaborn
-prefix: C:\Users\benny\miniconda3\envs\vyasbase
+  - jupyter
+
+  # Chemistry & visualization
+  - cclib
+  - rdkit
+  - nglview
+  - openbabel  
+
+  # Miscellaneous
+  - toml
+
+  # pip-only packages
+  - pip:
+      - moly==0.1.1
+      - qc-iodata
+      - nistchempy
