@@ -1,0 +1,26 @@
+# Disclaimer
+The screenshots from this tutorial will be on a linux machine, but ssh is very standardized across all platforms, while small bits may look different on your machine, these instructions should still work. you may just need to adjust the commands you see.
+
+# Why use ssh keys?
+ssh is short for "Secure Shell" and is one of the most secure ways for computers to send data back and forth. when logging in to wendian you will likely see something like below:
+
+![](figures/ssh_original.png)
+
+You have typed `ssh your_username@wendian.mines.edu` and then are prompted to put in your mines password.
+
+Passwords, however are not very secure. Often people use the same password multiple places, or people choose a password that is easy to remember and therefore easy to guess. ssh keys, however are long stings of random charachters that are very difficult to guess. Unfortunately, mines HPC will allways allow for passwords so we won't actually gain any security benefit in this case, instead we will gain convenience. Once yoou follow the instructions here, you will no longer need to enter your mines password when you log in to HPC. Your login will look something like this:
+
+![](figures/ssh_with_key.png)
+
+You will get to use a much shorter name when using ssh and wendian will immediately recognize you, no need to enter your password. This also works if you are using the **VScode** ssh plugin.
+
+# How to
+
+## generate an ssh key
+![](figures/ssh_keygen.png)
+
+1. type the following command in your terminal/command line `ssh-keygen -t ed25519`. this is the command to generate a unique random set of keys.
+2. You will then be asked if you would like it to save to the default location. You probably should not. and instead should rename the key by putting in the same path, but a more meaningful name, here I chose demo_key.
+3. You will then be asked if you would like to use a passphrase. For the most security you should choose a unique passphrase, for the most convenience, leave this blank.
+
+Then in your home directory you will see your keys
