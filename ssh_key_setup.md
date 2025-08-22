@@ -23,4 +23,24 @@ You will get to use a much shorter name when using ssh and wendian will immediat
 2. You will then be asked if you would like it to save to the default location. You probably should not. and instead should rename the key by putting in the same path, but a more meaningful name, here I chose demo_key.
 3. You will then be asked if you would like to use a passphrase. For the most security you should choose a unique passphrase, for the most convenience, leave this blank.
 
-Then in your home directory you will see your keys
+Then in your home directory in a hidden directory called .ssh you will see your keys. There is a private key and a public key. The public key ends in .pub.
+
+> [!caution]
+> It is not a big deal for you to expose or give away your public key, however if you share your private key or it is exposed then anyone who has the key can log in as you (if you dont use a password on the key). You should remove the associated public key from anywhere you need to be secure.
+
+
+![](figures/keys_made.png)
+
+On linux we can use the cat command to see our public key (the file ending in pub). On other platform you can also open the file to see the contents of the public key and copy it to your clipboard.
+
+![](figures/pub_key.png)
+
+next in the sssh target computer (wendian in this case) go to the directory `~/.ssh` and create or modify a file called `authorized_keys` and on its own line add the contents of your public key.
+
+![](figures/pub_key_in%20authorized_keys.png)
+
+back on your client computer in the .ssh directory create or modifty a file called `config` and add the following information. The first `Host` line can be any alias for the ssh target. the `HostName` is the ssh target. `User` is your username. `IdentityFile` is the path to your ssh private key.
+
+![](figures/config_setup.png)
+
+You now should no longer need to type your password and the full path to the target when logging in via ssh to your target.
