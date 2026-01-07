@@ -36,6 +36,7 @@ Most group members use Windows on their personal computers. We have experience s
 For DFT:  
 - Avogadro: https://www.openchemistry.org/downloads/ **AND/OR**
 - GaussView: requires a license you will obtain from Shubham
+- (note Avogadro has a million versions, I prefer v. 1.98.1 which can be found here: https://github.com/OpenChemistry/avogadrolibs/releases)
 
 For MD:  
 - ChimeraX: https://www.cgl.ucsf.edu/chimerax/download.html **AND/OR**
